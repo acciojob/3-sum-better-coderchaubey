@@ -6,6 +6,7 @@ function threeSum(S, target) {
   		if (S[index]+S[j]+S[i]===target || S[index]+S[j]+S[i]===target-1 || S[index]+S[j]+S[i]===target+1) {
   			return S[index]+S[j]+S[i];
   		}
+		j++;
   	}
   }
 }
